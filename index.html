@@ -1,0 +1,26 @@
+document.addEventListener('DOMContentLoaded', function() {
+    const billingFirstName = document.querySelector('#billing_first_name');
+    const billingLastName = document.querySelector('#billing_last_name');
+    const billingAddress = document.querySelector('#billing_address_1');
+    const billingCountry = document.querySelector('#billing_country');
+    const billingCity = document.querySelector('#billing_city');
+    const billingState = document.querySelector('#billing_state');
+
+    billingFirstName.value = 'NİHAİ';
+    billingLastName.value = 'TÜKETİCİ';
+    billingAddress.value = 'TÜRKİYE';
+    billingCountry.value = 'TR';
+    billingCity.value = 'Türkiye';
+    billingState.value = 'TR34';
+
+    billingFirstName.readOnly = true;
+    billingLastName.readOnly = true;
+    billingAddress.readOnly = true;
+    billingCountry.disabled = false;
+    billingCity.readOnly = true;
+    billingState.disabled = false; 
+
+    // Değerleri atadıktan sonra olayları tetikleyelim.
+    billingCountry.dispatchEvent(new Event('change'));
+    billingState.dispatchEvent(new Event('change'));
+});
