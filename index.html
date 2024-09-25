@@ -1,4 +1,5 @@
-document.addEventListener('DOMContentLoaded', function() {
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
     const billingFirstName = document.querySelector('#billing_first_name');
     const billingLastName = document.querySelector('#billing_last_name');
     const billingAddress = document.querySelector('#billing_address_1');
@@ -24,3 +25,4 @@ document.addEventListener('DOMContentLoaded', function() {
     billingCountry.dispatchEvent(new Event('change'));
     billingState.dispatchEvent(new Event('change'));
 });
+</script>
