@@ -1,0 +1,1 @@
+Woocommerce temada mevcut kullanıcıların veya misafirlerin direk isimlerini değiştiremeyecek şekilde otomatik giriyoruz. Fatura kesimine uygun hale getiriyoruz. dilerseniz css üstünden bu alanları kullanıcıda gizleyin telefon + mail doldurarak sipariş bırakabilirsiniz.
